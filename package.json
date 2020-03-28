@@ -1,0 +1,25 @@
+{
+  "name": "supportbethesda",
+  "version": "1.0.0",
+  "description": "Support Bethesda neighbors and locals",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiElwood/supportbethesda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiElwood/supportbethesda/issues"
+  },
+  "homepage": "https://github.com/KaiElwood/supportbethesda#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
