@@ -3,3 +3,12 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@responsive {
+    .p25{
+        padding: 25%;
+    }
+    .p50 {
+        padding: 50%;
+    }
+}
