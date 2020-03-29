@@ -7,7 +7,7 @@
     <title>supportbethesda.com</title>
 </head>
 <body>
-    <div class="min-h-screen w-screen bg-blue-200">
+    <div class="min-h-screen w-screen bg-blue-200 leading-relaxed">
         <!-- header -->
         <div class="flex justify-between p-4 px-12 bg-blue-400">
             <h1 class="text-2xl font-bold text-white">Support Bethesda!</h1>
@@ -22,14 +22,14 @@
             <div class="flex p-12 flex-col text-center items-center justify-center">
                 <h2 class="text-4xl font-bold text-black ">Help neighbors, friends, and family from Bethesda and the surrounding area get through Covid-19.</h2>
             </div>
-            <div style="min-height: 350px;" class="flex text-center p-4">
-                <div class="flex flex-col justify-between bg-white w-1/2 m-6 p-8 border-2 rounded-lg">
+            <div style="min-height: 400px;" class="flex flex-wrap lg:flex-no-wrap text-center p-4">
+                <div class="flex flex-col justify-between bg-white w-full lg:w-1/2 m-6 p-8 border-2 rounded-lg">
                     <h2 class="text-xl font-bold text-black">Sign up to recieve safe, free grocery delivery.</h2>
                     <p class="text-gray-700 text-base">Request to recieve groceries! We'll match you with a volunteer, and they will <span class="font-bold text-blue-700"><a href="#safety">safely</a></span> handle the groceries for you and drop them at your door.</p>
                     <p class="font-bold text-blue-700 underline"><a href="#safety">Safety is our priority</a></p>
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Sign Up</button>
                 </div>
-                <div class="flex flex-col justify-between bg-white w-1/2 m-6 p-8 border-2 rounded-lg">
+                <div class="flex flex-col justify-between bg-white w-full lg:w-1/2 m-6 p-8 border-2 rounded-lg">
                     <h2 class="text-xl font-bold text-black">Sign up to volunteer!</h2>
                     <p class="text-gray-700 text-base">Become a volunteer. No specific time commitment required, just help when you can! Click on the button below to register.</p>
                     <p class="font-bold text-blue-700 underline"><a href="#safety">Safety is our priority</a></p>
@@ -40,8 +40,17 @@
             <!-- sign up -->
     </div>
     <div class="bg-white">
-        <div class="flex justify-center p-12">
-            <h1 class="text-2xl font-bold">Safety</h1>
+        <div class="mx-24 p-8">
+            <h1 id="safety" class="text-center bg-blue-200 p-8 text-2xl font-bold underline rounded-full border-4 border-blue-300">Safety is our priority</h1>
+            <div class="py-8 px-4 items-center justify-center">
+                <p class="text-lg text-center w-full lg:w-1/2 p-6 lg:float-right leading-relaxed">Our volunteers understand that the real heros are the people working on the front lines of this health crisis. We expect cleanliness and expertise from them, so we provide the same in return.</p>
+                <div class="relative p-1/4 bg-red-400 w-full lg:w-1/2 overflow-hidden">
+                    <img style="top: -150px"class="absolute object-cover w-full left-0" src="https://images.unsplash.com/photo-1584473457406-6240486418e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" alt="Groceries on table">
+                </div>
+            </div>
+            <div>
+                <p>It's not easy to take care of patients during a health crisis. It's even harder to take care of yourself. </p>
+            </div>
         </div>
 
     </div>
