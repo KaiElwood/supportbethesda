@@ -5973,6 +5973,14 @@ video {
   padding-left: 1px;
 }
 
+.p-1\/2{
+  padding: 50%;
+}
+
+.p-1\/4{
+  padding: 25%;
+}
+
 .placeholder-transparent::-webkit-input-placeholder {
   color: transparent;
 }
